@@ -25,9 +25,8 @@ body {
   width: 70vh;
   height: 70vh;
   background-color: var(--secondary-light);
-  box-shadow: #ffc6d7 0px 0px 20px 0px;
+  box-shadow: #ffc6d7 0 0 20px 0;
   border: solid black 1px;
-  background-color: transparent;
 }
 .btn-container {
   display: flex;
@@ -47,7 +46,7 @@ h1 {
   font-size: 90px;
   margin-top: 3vh;
   font-family: "Comfortaa", cursive;
-  text-shadow: #ffc6d7 0px 0px 10px;
+  text-shadow: #ffc6d7 0 0 10px;
   background-color: transparent;
 }
 
