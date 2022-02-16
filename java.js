@@ -17,7 +17,6 @@ function createGrid(size) {
     grid[0].style.gridTemplateColumns = `repeat(${size}, 1fr)`
     grid[0].style.gridTemplateRows = `repeat(${size}, 1fr)`
     var rows = [];
-    let cases = [];
     for (let i = 0; i < size * size; i++) {
         rows[i] = document.createElement("div");
         rows[i].classList.add("case");
