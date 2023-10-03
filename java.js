@@ -1,4 +1,4 @@
-const grid = document.getElementsByClassName("grids");
+ const grid = document.getElementsByClassName("grids");
 const clear = document.getElementById('reset-button');
 const title = document.getElementById('title');
 const colorwheel = document.getElementById('colorPicker')
@@ -41,7 +41,7 @@ function reloadGrid() {
     clearGrid()
     let size = window.prompt("enter grid size");
     console.log(typeof(size));
-    if (size > 64) {
+    if (size < 0 || size > 64) {
         size = 64;
         createGrid(size)
     }else{
